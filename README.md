@@ -1,2 +1,2 @@
 # impulse-public-plugins
-A public repository that contains some plugins made by me.
+A public repository that contains some plugins for impulse framework/schemas.
