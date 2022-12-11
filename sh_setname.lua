@@ -8,7 +8,7 @@ local setNameCommand = {
 		newName = string.Trim(newName)
         local targ = impulse.FindPlayer(target)
         
-        if not ply:IsEventTeamDirector() then
+        if not ply:IsSuperAdmin() then
             return ply:Notify("You do not have permission to use this command.")
         end
 
